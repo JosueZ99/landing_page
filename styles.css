@@ -1,0 +1,209 @@
+/* Tamaño fuente para rems */
+
+html{
+    font-size: 16px;
+}
+
+/* Reset de estilo */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Fuentes y colores */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5F5;
+    color: #555555;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2196F3;
+}
+
+/* Encabezado */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    color: #2196F3;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    font-weight: 700;
+    color: #2196F3;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FF9800;
+}
+
+/* Sección Principal */
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background:rgba(0, 0, 0, .4) url('https://images2.rextag.com/public/blog/The%20Future%20of%20Renewable%20Energy.jpg');
+    background-size:cover;
+    background-position: center;
+    background-blend-mode: darken;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.hero button {
+    padding: 15px 30px;
+    background-color: #FF9800;
+    color: white;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #E68900;
+}
+
+/* Fuentes */
+
+/* Fuentes */
+
+.sources {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.sources h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.sources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.source {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.source h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.source-content {
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    margin-top: 15px;
+}
+
+.source img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.source p {
+    font-size: 1rem;
+}
+
+
+/* Beneficios */
+
+.benefits {
+    padding: 40px 20px;
+    background-color: hsla(0, 73%, 12%, 0.082);
+    text-align: center;
+}
+
+.benefits h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.benefits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.benefit {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.benefit h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+/* Pie de Página */
+
+footer {
+    padding: 20px;
+    background-color: #FFFFFF;
+    text-align: center;
+    color: #555555;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+}
+
+footer .socials a {
+    margin: 0 10px;
+    font-weight: 700;
+    color: #2196F3;
+}
